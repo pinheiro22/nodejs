@@ -20,8 +20,8 @@ console.log("    \\/                 \\/              \\/ ")
 //entrada
 nome = read.question("Digite o seu nome: ")
 disciplina = read.question("Digite a disciplina: ")
-nota1 = Number(read.question("Digite a nota1: "))
-nota2 = Number(read.question("Digite a nota2: "))
+nota1 = Number(read.question("Digite a nota1: ").replace(",","."))
+nota2 = Number(read.question("Digite a nota2: ").replace(",","."))
 
 //processamento
 media = (nota1 + nota2) / 2
