@@ -1,0 +1,9 @@
+Exercício 4 
+Desenvolver um APP para converter milhas em km/h
+
+
+Exercício 6
+Desenvolver um APP para calcular o preço de venda de um produto em função do preço de custo e margem de lucro(%)
+Exemplo:
+custo: 30,00 | lucro: 50% | venda: 45,00
+
