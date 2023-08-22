@@ -5,6 +5,8 @@
 //importaçao de módulos
 const read = require(`readline-sync`)
 
+let vendas, custo, lucro
+
 console.clear()
 
 console.log("dP        dP     dP  a88888b.  888888ba   .88888.")  

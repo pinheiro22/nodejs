@@ -1,9 +1,43 @@
 Exercício 4 
 Desenvolver um APP para converter milhas em km/h
 
+//variaveis
+km, milhas (numéricas)
+//entrada
+milhas
+//processamento
+km = milhas * 1.60934
+//saida
+km 
+
+Exercício  5
+Desenvolver um APP para converter libras em kilos 
+                libras
+peso(kg) = ________________
+                2,2046          
+
+//variaveis
+kg, líbras (numéricas)
+//entrada
+líbras 
+//processamento
+kg = líbras / 2.2046
+//saida kg
+
+
 
 Exercício 6
 Desenvolver um APP para calcular o preço de venda de um produto em função do preço de custo e margem de lucro(%)
 Exemplo:
 custo: 30,00 | lucro: 50% | venda: 45,00
+
+Preço de venda = preço de custo + lucro
+
+//varaiaveis
+custo, lucro, venda
+//entrada
+custo, lucro
+//processamento
+venda = custo + (custo * lucro) / 100
+//saida
 
