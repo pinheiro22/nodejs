@@ -3,7 +3,7 @@ Atividade de avaliação individual
 
 1) Criar um repositorio no GitHub e hospedar todos os projetos feitos no Scratch
 
-2) Criar no Scratch um APP para calcular o valor da hora de serviço de um técnico de informática
+2) Criar no Scratch um APP para calcular o valor da hora de serviço de um técnico de informática (hospedar no GitHub - Scratch)
 
 Remuneração mensal pretendida: 7000
 reserva: 30% remuneração (1500)
