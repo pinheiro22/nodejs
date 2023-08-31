@@ -3,10 +3,11 @@
  */
 
 const read = require('readline-sync')
-
-let remuneração, custo, Investimento, horasTecnica
-
 console.clear()
+let rem, custo, inv, horasTec, reserva
+
+
+console.log(horasTec)
 
 console.log("# #  #  ##   #      ##  ###      ## ### ##  # # ###  ##  #  ")
 console.log("# # # # # # # #     # # #       #   #   # # # #  #  #   # # ")
@@ -14,20 +15,22 @@ console.log("### # # ##  ### ### # # ##  ###  #  ##  ##  # #  #  #   # # ")
 console.log("# # # # # # # #     # # #         # #   # # # #  #  #   # # ")
 console.log("# #  #  # # # #     ##  ###     ##  ### # #  #  ###  ##  #  ")
 
-remuneração = Number(read.question("Digite a remuneração mensal pretendida: ").replace(",","."))
+//
+reserva = Number(read.question("Digite o valor da reserva: ").replace(",","."))
 
-reserva = Number(read.question("Digite a reserva pretendida: ").replace(",","."))
+remuneracao =Number(read.question("Digite a remuneracao mensal pretendida: ").replace(",","."))
 
-custo = Number(read.question("Digite o custo operacional: ").replace(",","."))
+custo =Number(read.question("Digite o custo operacional: ").replace(",","."))
 
-investimento = Number(read.question("Digite o Investimento: ").replace(",","."))
+investimento =Number(read.question("Digite o Investimento: ").replace(",","."))
 
-horasTecnica = Number(read.question("Digite a horas trabalhadas por mês: "))
+horasTec =Number(read.question("Digite a horas trabalhadas por mes: "))
 
-horasTecnica = (remuneração+(remuneração*reserva)/100+custo+(investimento*remuneração)/100)/horasTecnica
+horasTec = (remuneracao+(remuneracao*reserva)/100+custo+(investimento*remuneracao)/100)/horasTec
 
 console.log
 console.clear()
-console.log("======================================")
-console.log(`=== Horas Tecnica em h: ${h.toFixed(2)}===`)
-console.log("======================================")
+console.log("_________________________________")
+console.log("======Horas tecnicas======")
+console.log(horasTec)
+console.log("_________________________________")
