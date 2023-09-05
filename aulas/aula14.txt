@@ -1,0 +1,46 @@
+Estruturas de controles condicional
+Encadeamentos/aninhamento if - else
+
+if (condição) {
+    //condição verdadeira
+}
+
+if (condição) {
+    //condição verdadeira
+} else {
+    //condição falsa
+}
+
+
+if (condição 1) {
+    //condição 1 verdadeira
+} else {
+    if (condição 2) {
+        //condição 2 verdadeira
+    } else {
+        //condição 2 falsa
+    }
+}
+
+
+if (condição 1) {
+    //condição 1 verdadeira
+} else if (condição 2) {
+        //condição 2 verdadeira
+} else {
+        //nenhuma condição anterior verdadeira 
+    }
+}
+
+________________________________________________________________
+Exercicios:
+Desenvolver no scretch e no Node.JS um APP que informe a obrigatoriedade de votar de funçaõ da idade, sabendo que: 
+- abaixo de 16 anos o voto é proibido
+- 16,17 ou acima de 70 anos o voto é facultativo
+- Entre 18 e 70 (incluindo o 18 e 70) o ovto é obrigatório 
+
+//variaveis
+idade
+
+//processamento e saída
+Encadeamento if - else 
