@@ -20,5 +20,3 @@ combustivel = Number(read.question("Digite o preco do combustivel: ").replace(",
 km = (km /combustivel)
 
 console.log(`valor gasto por KM: ${km.toFixed(2)} `)
-
-

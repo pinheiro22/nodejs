@@ -16,14 +16,3 @@ determinar horas/mês (160)
 
 hora técnica = 8000 / 160
 hora técnica = 50,00
-
-//variaveis
-remuneração, custo, horasMes, horaTecnica (numéricas)
-//entrada
-remuneração, custo, horasMes
-
-//processamento
-horaTecnica = (remuneração = (remuneração * 0.3) + custo + (remuneração * 0,2)) / horasMes 
-
-//saida
-horaTecnica 

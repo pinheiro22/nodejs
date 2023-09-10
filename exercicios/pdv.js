@@ -17,8 +17,8 @@ console.log("888        888    888    88888")
 console.log("o888o      o888ooo88      888")     
 
 //entrada 1
-valor = Number(read.question("Digite o valor total da compra: "))
-desconto = Number(read.question("Digite o valor total da desconto: "))
+valor = Number(read.question("Digite o valor total da compra: ").replace(",","."))
+desconto = Number(read.question("Digite o valor total da desconto: ").replace(",","."))
 //processamento 1
 total = valor - (desconto * valor) / 100
 //saida 1
@@ -31,5 +31,3 @@ dinheiro = Number(read.question("Digite o valor pago em dinheiro: "))
 troco = dinheiro - total
 //saida
 console.log(`Troco R$ ${troco.toFixed(2)}`)
-
-
