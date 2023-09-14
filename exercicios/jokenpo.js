@@ -1,36 +1,55 @@
-const read = require("readline-sync")
-const colors = require("colors")
+/**
+ * JOKEMPO
+ */
 
-let escolha, pc
+const read = require ('readline-sync')
+const colors = require ('colors')
+
+let opcao , computador
 
 console.clear()
-console.log("_______ JoKenPo _______")
-console.log("1. Pedra")
-console.log("2. Papel")
-console.log("3. Tesoura")
-escolha = Number(read.question("Digite a opção desejada:"))
- pc = Number(read.question("Digite a opção desejada para a maquina:"))//Math.floor(Math.random() * 3 + 1)
+console.log("      ##  #######  ##    ## ######## ##    ## ########   #######  ")
+console.log("      ## ##     ## ##   ##  ##       ###   ## ##     ## ##     ## ")
+console.log("      ## ##     ## ##  ##   ##       ####  ## ##     ## ##     ## ")
+console.log("      ## ##     ## #####    ######   ## ## ## ########  ##     ## ")
+console.log("##    ## ##     ## ##  ##   ##       ##  #### ##        ##     ## ")
+console.log("##    ## ##     ## ##   ##  ##       ##   ### ##        ##     ## ")
+console.log(" ######   #######  ##    ## ######## ##    ## ##         #######  ")
 
-if (escolha == 1) {
-    console.log(`Jogador escolheu pedra`)
-} else if (escolha == 1) {
-    console.log("Jogador escolheu papel")
-} else {
-    console.log("Jogador escolheu tesoura")
+console.log("1. PEDRA".gray.italic)
+console.log("2. PAPEL".white.italic)
+console.log("3. TESOURA".black.italic)
+
+opcao = Number(read.question("Escolha a sua opcao, boa sorte !:    ".cyan.bold))
+read.question("Pressione a tecla [ENTER] para o computador jogar	") 
+computador = Math.floor(Math.random() * 3 + 1)
+
+switch (opcao) {
+case 1:
+    console.log("Jogador escolheu pedra")
+	break
+case 2:
+	console.log("Jogador escolheu papel")
+	break
+case 3:
+	console.log("Jogador escolheu tesoura")
 }
 
 console.clear()
-if (pc == 1) {
-    console.log(`Computador escolheu pedra`)
-} else if (pc == 1) {
-    console.log("Computador escolheu papel")
-} else {
-    console.log("Computador escolheu tesoura")
-}
+switch (computador) {
+	case 1:
+		console.log("Computador escolheu pedra")
+		break
+	case 2:
+		console.log("Computador escolheu papel")
+		break
+	case 3:
+		console.log("Computador escolheu tesoura")
+	}
 
-if(escolha==pc){
+if (opcao==computador){
     console.log("EMPATE!".yellow)
-}else if(escolha == 1 && pc == 3||escolha == 2 && pc == 1||escolha == 3 && pc == 2){
+}else if(opcao == 1 && computador == 3||opcao == 2 && computador == 1||opcao == 3 && computador == 2){
     console.log("JOGADOR VENCE!!".green)
 }else{
     console.log("COMPUTADOR VENCE!!".red)
