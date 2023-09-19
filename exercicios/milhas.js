@@ -6,7 +6,7 @@ const read = require('readline-sync')
 
 let milhas,km
 
-console.clear()
+console.clear
 
 
 console.log("#     # ### #       #     #    #     #####              #    # #     # ")

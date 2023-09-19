@@ -40,3 +40,4 @@ custo, lucro
 //processamento
 venda = custo + (custo * lucro) / 100
 //saida
+

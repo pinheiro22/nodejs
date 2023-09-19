@@ -1,0 +1,20 @@
+Estruturas de controle
+Laços de repestições
+Laço for(número determunado de repestições)
+- É a única estrutura que permite criar internamente uma variavel do tipo numérico inteiro
+- inicio; condição; incremento/decremento
+- O laço é repetido enquanto a condição é verdadeira 
+for (let i = 1; i < 10; i++) {
+
+}
+
+Criando um laço for dentro de outro laço for
+for() {
+    for(){
+
+    }
+}
+
+Observações:
+1) Usar nomes diferentes de variaveis internas
+2) O imcremento ou decremento do laço principal só é executado após a finalização do laço for interno.

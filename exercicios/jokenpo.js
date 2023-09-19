@@ -16,12 +16,11 @@ console.log("##    ## ##     ## ##  ##   ##       ##  #### ##        ##     ## "
 console.log("##    ## ##     ## ##   ##  ##       ##   ### ##        ##     ## ")
 console.log(" ######   #######  ##    ## ######## ##    ## ##         #######  ")
 
-console.log("1. PEDRA".gray.italic)
-console.log("2. PAPEL".white.italic)
-console.log("3. TESOURA".black.italic)
+console.log("1. PEDRA".gray)
+console.log("2. PAPEL".cyan)
+console.log("3. TESOURA".blue)
 
 opcao = Number(read.question("Escolha a sua opcao, boa sorte !:    ".cyan.bold))
-read.question("Pressione a tecla [ENTER] para o computador jogar	") 
 computador = Math.floor(Math.random() * 3 + 1)
 
 switch (opcao) {
