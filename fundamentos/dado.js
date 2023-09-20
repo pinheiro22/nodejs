@@ -5,7 +5,9 @@
 const read = require('readline-sync')
 
 let face
+let escolha = "s"
 
+do {
 console.clear()
 console.log("------ Jogo do dado -------")
 read.question("Pressione a tecla [Enter] para jogar o dado: ")
@@ -53,7 +55,8 @@ switch (face) {
         console.log("|O     O|")
         console.log("|O_____O|")  
         break 
+    } 
 
-        
-}
+     escolha = read.question("Deseja jogar novamente(s/n)?")   
+} while(escolha === "s")
 console.log(`Face do dado: ${face}`)
