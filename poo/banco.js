@@ -20,6 +20,15 @@ class Conta {
         this.saldo += valor
         console.log(`Credito de R$ ${valor.toFixed(2)}`)
     }
+    sacar(valor) {
+        //validação
+        if(valor <= this.saldo) {
+            this.saldo -= valor
+            console.log(`Débito de R$ ${valor.toFixed(2)}`)
+        } else {
+            console.log("Saque não permitido")    
+        }
+    }
 }
 
 /**** Clientes ****/
@@ -46,6 +55,12 @@ console.log(" ")
 //instanciar um objeto
 let cc1 = new Conta(1, "Leandro Ramos", 10000)
 console.log(`Clientes: ${cc1.titular} | conta: ${cc1.numero}`)
+cc1.exibirSaldo()
+cc1.depositar(5000)
+cc1.exibirSaldo()
+cc1.sacar(8000)
+cc1.exibirSaldo()
+cc1.sacar(8000)
 cc1.exibirSaldo()
 
 let p1 = new Conta(10, "Leandro Ramos", 10000000)
