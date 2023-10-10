@@ -13,4 +13,9 @@ Classe modelo - objetos
 Extende(reutiliza) atributos e métodos da classe principal
 
 //Polimorfismo
-Modifica o comportamento de um método existente na classe principal  
+Modifica o comportamento de um método existente na classe principal
+
+//Encapsulamento
+Segurança (protege o acesso as variaveis)
+-- Atributos (variaveis) -> privados
+-- Métodos especificos (get e set) são usados para acessar as variaveis
