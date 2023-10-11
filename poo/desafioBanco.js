@@ -55,11 +55,22 @@ class ContaPoupaca extends Conta {
 
 /**cliente**/
 console.clear()
-console.log("██████   █████  ███    ██  ██████  ██████  ".red)
-console.log("██   ██ ██   ██ ████   ██ ██      ██    ██ ".red)
-console.log("██████  ███████ ██ ██  ██ ██      ██    ██ ".red)
-console.log("██   ██ ██   ██ ██  ██ ██ ██      ██    ██ ".blue)
-console.log("██████  ██   ██ ██   ████  ██████  ██████  ".blue)
+console.log("BBBBBBBBBBBBBBBBB               AAA               NNNNNNNN        NNNNNNNNKKKKKKKKK    KKKKKKK ")
+console.log("B::::::::::::::::B             A:::A              N:::::::N       N::::::NK:::::::K    K:::::K ")
+console.log("B::::::BBBBBB:::::B           A:::::A             N::::::::N      N::::::NK:::::::K    K:::::K ")
+console.log("BB:::::B     B:::::B         A:::::::A            N:::::::::N     N::::::NK:::::::K   K::::::K ")
+console.log("  B::::B     B:::::B        A:::::::::A           N::::::::::N    N::::::NKK::::::K  K:::::KKK ")
+console.log("  B::::B     B:::::B       A:::::A:::::A          N:::::::::::N   N::::::N  K:::::K K:::::K    ")
+console.log("  B::::BBBBBB:::::B       A:::::A A:::::A         N:::::::N::::N  N::::::N  K::::::K:::::K     ")
+console.log("  B:::::::::::::BB       A:::::A   A:::::A        N::::::N N::::N N::::::N  K:::::::::::K      ")
+console.log("  B::::BBBBBB:::::B     A:::::A     A:::::A       N::::::N  N::::N:::::::N  K:::::::::::K      ")
+console.log("  B::::B     B:::::B   A:::::AAAAAAAAA:::::A      N::::::N   N:::::::::::N  K::::::K:::::K     ")
+console.log("  B::::B     B:::::B  A:::::::::::::::::::::A     N::::::N    N::::::::::N  K:::::K K:::::K    ")
+console.log("  B::::B     B:::::B A:::::AAAAAAAAAAAAA:::::A    N::::::N     N:::::::::NKK::::::K  K:::::KKK ")
+console.log("BB:::::BBBBBB::::::BA:::::A             A:::::A   N::::::N      N::::::::NK:::::::K   K::::::K ")
+console.log("B:::::::::::::::::BA:::::A               A:::::A  N::::::N       N:::::::NK:::::::K    K:::::K ")
+console.log("B::::::::::::::::BA:::::A                 A:::::A N::::::N        N::::::NK:::::::K    K:::::K ")
+console.log("BBBBBBBBBBBBBBBBBAAAAAAA                   AAAAAAANNNNNNNN         NNNNNNNKKKKKKKKK    KKKKKKK ")
 
 //criação Vaamond
 let cc1 = new Conta(1, "Robson Vaamond", 2900)
