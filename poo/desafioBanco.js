@@ -87,23 +87,23 @@ console.log("B::::::::::::::::BA:::::A                 A:::::A N::::::N        N
 console.log("BBBBBBBBBBBBBBBBBAAAAAAA                   AAAAAAANNNNNNNN         NNNNNNNKKKKKKKKK    KKKKKKK ")
 
 //criação Poupança Vaamond
-let cp1 = new ContaPoupanca(10,"Robson Vaamond", 6000)
+let cp1 = new ContaPoupanca(10,"Robson Vaamond", 5000)
 console.log(`Cliente: ${cp1.getTitular()} | conta: ${cp1.getNumero()}`.yellow)
 cp1.exibirSaldoPoupanca()
 console.log()
 //criação Poupança Sirlene
-let cp2 = new ContaPoupanca(20,"Sirlene Aparecida", 2000)
+let cp2 = new ContaPoupanca(50,"Sirlene Aparecida", 3000)
 console.log(`Cliente: ${cp2.getTitular()} | conta: ${cp2.getNumero()}`.yellow)
 cp2.exibirSaldoPoupanca()
 console.log()
 
-let cp3 = new ContaPoupanca(30,"Leandro Ramos", 3000)
+let cp3 = new ContaPoupanca(60,"Leandro Ramos", 4000)
 console.log(`Cliente: ${cp3.getTitular()} | conta: ${cp3.getNumero()}`.yellow)
 cp3.exibirSaldoPoupanca()
 console.log()
 
 //criação Vaamond
-let cc1 = new Conta(1, "Robson Vaamond", 2900)
+let cc1 = new Conta(1, "Robson Vaamond", 2500)
 console.log(`Cliente: ${cc1.getTitular()} | conta: ${cc1.getNumero()}`.green)
 cc1.exibirSaldo()
 cc1.depositar(1000)
@@ -123,7 +123,7 @@ cc2.sacar(20)
 cc2.exibirSaldo()
 console.log()
 
-let cc3 = new Conta (3, "Leandro Ramos", 1000)
+let cc3 = new Conta (3, "Leandro Ramos", 2000)
 console.log(`Cliente: ${cc3.getTitular()} | conta: ${cc3.getNumero()}`.green)
 cc3.exibirSaldo()
 cc3.depositar(2000)
