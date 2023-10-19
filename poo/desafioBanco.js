@@ -140,7 +140,7 @@ cc3.depositar(2000)
 cc3.exibirSaldo()
 cc3.sacar(20)
 cc3.exibirSaldo()
-cc3.pix(2500, cc2) // pix de Leandro para Sirlene
+cc3.pix(300, cc1) // pix de Leandro para Sirlene
 cc3.pix(100, cp1) // transferência de Leandro para Vaamond Poupança 
 
 console.log()
